@@ -1,12 +1,14 @@
 import random
-a=random.randint(1,190)
-b=random.randint(1,150)
+a=random.randint(1,190)  #temperature
+b=random.randint(1,150)   #humidite
 print(a)
 print(b)
 if a>80:
     if b>80:
-        print ("hazar predicted")
+        print("Alram ON")
+        print ("hazard predicted")
     else:
-        print ("high tmp")
+        print("Alram ON")
+        print ("high temp")
 else:
-    print ("all good")
+    print ("Alarm OFF")
