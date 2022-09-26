@@ -5,7 +5,7 @@ print(a)
 print(b)
 if a>80:
     if b>80:
-        print ("hazar predected")
+        print ("hazar predicted")
     else:
         print ("high tmp")
 else:
