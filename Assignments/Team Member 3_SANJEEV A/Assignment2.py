@@ -1,6 +1,6 @@
 import random
 a=random.randint(1,190)  #temperature
-b=random.randint(1,150)   #humidite
+b=random.randint(1,150)   #humiditY
 print(a)
 print(b)
 if a>80:
