@@ -16,7 +16,7 @@ print("Temperature is = ",t)
 print("Humidity is = ",h)
 
 if t >60 and h > 60:
-    print("alarm ON : It's seems to be risky")
+    print("alarm ON : It's seems to be riskey")
 elif t > 60 and h < 60:
     print("alarm ON : It's seems to be high temperature")
 else:
